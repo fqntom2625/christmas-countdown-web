@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.countdown-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.time-unit {
+  font-size: 2em;
+  color: #007bff;
+}
+.time-unit span:first-child {
+  font-size: 3em;
+  font-weight: bold;
+}
